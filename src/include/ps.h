@@ -1,0 +1,1 @@
+enum attribute { USER, PID, CPU, MEM, VSZ, RSS, TTY, STAT, START, TIME };
