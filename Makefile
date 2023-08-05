@@ -27,6 +27,14 @@ $(OBJS_TEST):%.o:%.c
 $(OBJS):%.o:%.c
 	$(CC) -c $< -o $@ $(CFLAGS)
 
+build-simulation:
+	$(CC) simulation/simulate.c -o simulation/simulate
+	
+simulation:build-simulation
+	./simulation/simulate
+
 clean:
 	rm -f target/*
 	rm -f src/*.o
+	rm -f *.txt
+	rm -f simulation/simulate
