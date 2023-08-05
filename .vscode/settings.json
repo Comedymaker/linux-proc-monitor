@@ -4,6 +4,7 @@
         "*.wxss": "css",
         "*.wxs": "javascript",
         "ps.h": "c",
-        "proc.h": "c"
+        "proc.h": "c",
+        "mail.h": "c"
     }
 }

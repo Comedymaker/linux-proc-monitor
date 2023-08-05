@@ -27,7 +27,8 @@ int main() {
             flag = 1;
             continue;
         }
-        get_proc_info(buffer);  
+        proc p;
+        get_proc_info(buffer, &p);  
         proc_num++;
     }
 

@@ -3,9 +3,11 @@ CFLAGS=
 
 OBJS= src/main.o \
 	src/proc.o \
+	src/mail.o \
 
 OBJS_TEST= src/test.o \
 	src/proc.o \
+	src/mail.o \
 
 build: $(OBJS)
 	$(CC) -o target/LINUX-PROC-MONITOR $(OBJS) $(CFLAGS)

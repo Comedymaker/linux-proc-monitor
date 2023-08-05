@@ -1,5 +1,8 @@
 // #include <time.h>
 
+#define MAX_CPU 0.8
+#define MAX_MEM 0.8
+
 typedef struct proc
 {
     char    USER[30];
@@ -14,4 +17,5 @@ typedef struct proc
     char     TIME[20];
 }proc;
 
-int get_proc_info(char*);
+int get_proc_info(char*, proc*);
+int check_proc(proc*);
