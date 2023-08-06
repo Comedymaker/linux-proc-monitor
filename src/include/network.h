@@ -14,3 +14,4 @@ typedef struct proc_net
 
 int check_proc_netstat(int proc_num);
 int set_proc_net_monitor(int proc_num);
+int check_invisible_proc(void);

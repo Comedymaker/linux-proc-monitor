@@ -19,3 +19,4 @@ typedef struct proc
 
 int get_proc_info(char*, proc*);
 int check_proc(proc*);
+int get_all_proc_info(void);

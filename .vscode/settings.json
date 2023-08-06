@@ -7,6 +7,8 @@
         "proc.h": "c",
         "mail.h": "c",
         "string.h": "c",
-        "network.h": "c"
+        "network.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c"
     }
 }

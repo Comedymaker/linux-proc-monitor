@@ -18,7 +18,7 @@ Enviroment
 Ubuntu 20.04
 ```
 
-Recommend
+Need
 
 ```
 run with sudo

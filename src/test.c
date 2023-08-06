@@ -6,7 +6,6 @@
 #include "include/mail.h"
 #include "include/network.h"
 
-proc proc_list[1000];
 int proc_num = 0;
 
 int main() {
@@ -36,7 +35,9 @@ int main() {
     // }
 
     // pclose(fp);
-    set_proc_net_monitor(6608);
+    // get_all_proc_info();
+    check_invisible_proc();
+    // set_proc_net_monitor(4988);
 
     return 0;
 }

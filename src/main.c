@@ -4,7 +4,6 @@
 #include "include/proc.h"
 #include "include/ps.h"
 
-proc proc_list[1000];
 int proc_num = 0;
 
 int main() {
