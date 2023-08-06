@@ -17,3 +17,9 @@ Enviroment
 ```
 Ubuntu 20.04
 ```
+
+Recommend
+
+```
+run with sudo
+```

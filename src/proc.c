@@ -11,7 +11,7 @@ int get_proc_info(char* buffer, proc* temp_proc){
     char temp[1024];
 
     strcpy(temp, buffer);
-        char *p = strtok(buffer, delim);
+        char *p = strtok(temp, delim);
         enum attribute i = 0;
         while (p)
         {

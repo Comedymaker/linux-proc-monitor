@@ -4,10 +4,12 @@ CFLAGS=
 OBJS= src/main.o \
 	src/proc.o \
 	src/mail.o \
+	src/network.o \
 
 OBJS_TEST= src/test.o \
 	src/proc.o \
 	src/mail.o \
+	src/network.o \
 
 build: $(OBJS)
 	$(CC) -o target/LINUX-PROC-MONITOR $(OBJS) $(CFLAGS)
@@ -19,7 +21,7 @@ build-test: $(OBJS_TEST)
 	$(CC) -o target/test $(OBJS_TEST) $(CFLAGS)
 
 test: clean build-test
-	./target/test > test.txt
+	./target/test
 
 $(OBJS_TEST):%.o:%.c
 	$(CC) -c $< -o $@ $(CFLAGS)

@@ -1,7 +1,7 @@
 // #include <time.h>
 
-#define MAX_CPU 0.8
-#define MAX_MEM 0.8
+#define MAX_CPU 80
+#define MAX_MEM 80
 
 typedef struct proc
 {

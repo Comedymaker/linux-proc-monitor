@@ -5,6 +5,8 @@
         "*.wxs": "javascript",
         "ps.h": "c",
         "proc.h": "c",
-        "mail.h": "c"
+        "mail.h": "c",
+        "string.h": "c",
+        "network.h": "c"
     }
 }
