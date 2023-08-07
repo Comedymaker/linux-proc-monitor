@@ -9,6 +9,7 @@
         "string.h": "c",
         "network.h": "c",
         "stdio.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "inoty.h": "c"
     }
 }
