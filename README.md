@@ -6,6 +6,12 @@ Start to use
 make all
 ```
 
+Clean
+
+```
+make clean
+```
+
 Dependencies
 
 ```
